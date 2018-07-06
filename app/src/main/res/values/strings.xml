@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <!-- activity_main -->
+    <string name="Next">Next</string>
+    <string name="tenSinhVien">Họ tên sinh viên</string>
+    <!-- activity_student -->
+    <string name="queQuan">Quê quán</string>
+    <string name="NgaySinh">Ngày sinh</string>
+    <string name="GioiTinh">Giới tính</string>
+    <string name="Lop">Lớp</string>
+    <string name="KhoaHoc">Khóa học</string>
+</resources>

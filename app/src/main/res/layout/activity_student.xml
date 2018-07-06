@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StudentActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvTenSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="@dimen/margin5" />
+    <EditText
+        android:id="@+id/etQueQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin5"
+        android:hint="@string/queQuan"
+        android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/etNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin5"
+        android:textSize="25dp"
+        android:hint="@string/NgaySinh"/>
+    <EditText
+        android:id="@+id/etGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin5"
+        android:textSize="25dp"
+        android:hint="@string/GioiTinh"/>
+    <EditText
+        android:id="@+id/etLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin5"
+        android:textSize="25dp"
+        android:hint="@string/Lop"/>
+    <EditText
+        android:id="@+id/etKhoaHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin5"
+        android:textSize="25dp"
+        android:hint="@string/KhoaHoc" />
+    <Button
+        android:id="@+id/btnNextInfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin5"
+        android:text="@string/Next"/>
+
+</LinearLayout>
