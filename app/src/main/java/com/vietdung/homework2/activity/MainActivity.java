@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 String TenSV = et_Ten.getText().toString();
                 if ( TenSV.isEmpty() ) {
                     // Kiểm tra họ tên đã được điền hay chưa
-                   Toast.makeText(MainActivity.this,"Vui lòng nhập họ tên",Toast.LENGTH_SHORT).show();
+                   Toast.makeText(MainActivity.this,R.string.Kiemtrahoten,Toast.LENGTH_SHORT).show();
                 } else {
                     //Chuyển màn hình
                     Intent intent = new Intent(MainActivity.this,StudentActivity.class);

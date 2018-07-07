@@ -5,9 +5,11 @@
     <string name="tenSinhVien">Họ tên sinh viên</string>
     <!-- activity_student -->
     <string name="queQuan">Quê quán</string>
-    <string name="NgaySinh">Ngày sinh</string>
+    <string name="NgaySinh">Ngày-tháng-năm sinh</string>
     <string name="GioiTinh">Giới tính</string>
     <string name="Lop">Lớp</string>
     <string name="KhoaHoc">Khóa học</string>
     <string name="Thongtin">Thông tin sinh viên</string>
+    <string name="Kiemtrathongtin">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="Kiemtrahoten">Vui lòng nhập họ tên</string>
 </resources>

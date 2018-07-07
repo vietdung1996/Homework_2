@@ -63,7 +63,7 @@ public class StudentActivity extends AppCompatActivity {
 
         if (TenSV.isEmpty() || Quequan.isEmpty() || NgaySinh.isEmpty() || GioiTinh.isEmpty() || Lop.isEmpty() || KhoaHoc.isEmpty()) {
             //Kiểm tra thông tin có được điền đầy đủ
-            Toast.makeText(StudentActivity.this,"Vui lòng nhập đầy đủ thông tin",Toast.LENGTH_SHORT).show();
+            Toast.makeText(StudentActivity.this,R.string.Kiemtrathongtin,Toast.LENGTH_SHORT).show();
         } else {
             //Chuyển màn hình
             inforStudent = new InforStudent(TenSV,Quequan,NgaySinh,GioiTinh,Lop,KhoaHoc);
