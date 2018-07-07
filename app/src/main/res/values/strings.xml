@@ -9,4 +9,5 @@
     <string name="GioiTinh">Giới tính</string>
     <string name="Lop">Lớp</string>
     <string name="KhoaHoc">Khóa học</string>
+    <string name="Thongtin">Thông tin sinh viên</string>
 </resources>
